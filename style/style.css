@@ -106,7 +106,7 @@ nav ul li a {
     text-transform: capitalize;
 }
 .banner-content .text-green {
-    color: #469165;
+    color: #30B868;
     text-transform: capitalize;
     margin-bottom: 16px;
 }
@@ -246,12 +246,77 @@ nav ul li a {
 .brain-content li i {
     margin-right: 10px;
 }
+/* Think Section CSS */
+.think-content {
+    background-color: #F7F6F2;
+    padding: 80px 0;
+    text-align: center;
+    border-radius: 15px;
+    margin: 120px 0;
+}
+.think-content h3 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.think-content p {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
 
-
+.think-content button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    gap: 12px;
+    background-color: #469165; 
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
 
 
 /* Footr Section CSS */
 footer {
     background-color: #001931;
+    color: #FAFAFA;
     height: 348px;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 80px 0;
+}
+.footer-content .f-logo img {
+    width: 139px;
+    height: 60px;
+}
+.footer-content .f-social h5 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-content .f-social img {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+.footer-content .f-social img:last-child {
+    margin-right: 0px;
+}
+footer hr {
+    margin-bottom: 30px;
 }

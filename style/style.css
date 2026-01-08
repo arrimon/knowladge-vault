@@ -140,3 +140,56 @@ nav ul li a {
     margin-top: 1px;
     margin-right: 5px;
 }
+
+/* Note Section CSS */
+.notes {
+    padding: 60px 0;
+    text-align: center;
+}
+.note-content h2 {
+    color: #001931;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.note-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.notes .note-cards {
+    display: flex;
+    gap: 20px;
+}
+.notes .note-card {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 60px 24px;
+    border-radius: 5px;
+}
+.notes .note-cards .note-card img {
+    width: 60px;
+    margin-bottom: 16px;
+}
+.notes .note-cards .note-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes .note-cards .note-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+
+
+
+/* Footr Section CSS */
+footer {
+    background-color: #001931;
+    height: 348px;
+}

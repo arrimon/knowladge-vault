@@ -64,3 +64,79 @@ nav ul li a {
     color: #000000;
     text-decoration: none;
 }
+
+/* Banner CSS */
+.banner {
+    background: url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 750px;
+    padding: 150px 0;
+}
+.banner-content {
+    width: 770px;
+    margin: 0 auto;
+}
+.banner-content button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 12px 24px;     
+    gap: 10px;              
+    background-color: #FFFFFF;
+    color: #469165;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.banner-content button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.banner-content h2 {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+.banner-content .text-green {
+    color: #469165;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+.banner .banner-btn i {
+    margin-left: 5px;
+}
+.btn {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px 20px;     
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #0e0e0e3a;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 16px;
+}
+.btn svg {
+    margin-top: 1px;
+    margin-right: 5px;
+}

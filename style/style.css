@@ -184,6 +184,68 @@ nav ul li a {
     color: #627382;
 }
 
+/* Brain Section CSS */
+.brain {
+    padding: 50px 0;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.brain-img {
+    width: 620px;
+    height: 620px;
+}
+.brain-img img {
+    width: 600px;
+    height: 600px;
+}
+
+.brain-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 720px;
+    height: 500px;
+}
+
+.brain-content h5 {
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.brain-content h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.brain-content p {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.brain-content ul {
+    list-style: none; 
+    padding: 0;
+    margin-top: 20px;
+}
+
+.brain-content li {
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 12px;
+    position: relative;
+}
+.brain-content li i {
+    margin-right: 10px;
+}
 
 
 

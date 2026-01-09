@@ -1,6 +1,6 @@
-"# Project Name" -> Knowladge Vault
+"# Project Name" -> Knowledge Vault
 
-This Project Not aresponsibe basic HTML5, CSS Project
+This Project Not Responsive. It's a basic HTML5, CSS design.
 
 This is Programming Hero Batch 13
 
